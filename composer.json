@@ -1,0 +1,31 @@
+{
+  "name": "seka19/laravel-breadcrumbs",
+  "description": "Laravel package for displaying DB-based breadcrumbs in views",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexey Sinkevich",
+      "email": "mail@neoways.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "laravel/framework": "5.5.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "Seka19\\LaravelBreadcrumbs\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Seka19\\LaravelBreadcrumbs\\LaravelBreadcrumbsServiceProvider"
+      ]
+    }
+  }
+}

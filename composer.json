@@ -2,7 +2,7 @@
   "name": "seka19/laravel-breadcrumbs",
   "description": "Laravel package for displaying DB-based breadcrumbs in views",
   "type": "package",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "authors": [
     {
       "name": "Alexey Sinkevich",

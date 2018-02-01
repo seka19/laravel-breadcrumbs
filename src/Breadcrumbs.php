@@ -17,6 +17,7 @@
 
 namespace Seka19\LaravelBreadcrumbs;
 
+use Illuminate\Container\Container;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Collection;
@@ -70,10 +71,9 @@ class Breadcrumbs extends Model
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-        app();
-        $this->request = app(Request::class);
-        $this->viewFactory = app(ViewFactory::class);
-        $this->urlGenerator = app(UrlGenerator::class);
+        $this->request = Container::getInstance()->make(Request::class);
+        $this->viewFactory = Container::getInstance()->make(ViewFactory::class);
+        $this->urlGenerator = Container::getInstance()->make(UrlGenerator::class);
     }
 
     /**

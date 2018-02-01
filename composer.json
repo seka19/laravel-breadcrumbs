@@ -11,6 +11,14 @@
   ],
   "require": {
     "php": ">=7.1",
+    "illuminate/console": "5.5.x",
+    "illuminate/container": "5.5.x",
+    "illuminate/contracts": "5.5.x",
+    "illuminate/database": "5.5.x",
+    "illuminate/http": "5.5.x",
+    "illuminate/support": "5.5.x"
+  },
+  "require-dev": {
     "laravel/framework": "5.5.x"
   },
   "autoload": {

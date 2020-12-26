@@ -10,16 +10,16 @@
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "illuminate/console": "5.5.x",
-    "illuminate/container": "5.5.x",
-    "illuminate/contracts": "5.5.x",
-    "illuminate/database": "5.5.x",
-    "illuminate/http": "5.5.x",
-    "illuminate/support": "5.5.x"
+    "php": ">=7.4",
+    "illuminate/console": "^8",
+    "illuminate/container": "^8",
+    "illuminate/contracts": "^8",
+    "illuminate/database": "^8",
+    "illuminate/http": "^8",
+    "illuminate/support": "^8"
   },
   "require-dev": {
-    "laravel/framework": "5.5.x"
+    "laravel/framework": "^8"
   },
   "autoload": {
     "psr-4": {
